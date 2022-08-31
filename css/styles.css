@@ -1,0 +1,145 @@
+/* body styling */
+body{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navbar styling */
+.nav{
+    background-color: #FEDB39
+}
+
+
+/* H styling */
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* horizontal rule styling */
+ hr{
+    border: 5px solid black;
+ }
+
+/* home page styling*/
+.home-content{
+    align-items: center;
+    background-color: black;
+    margin: auto;  
+    height: auto;
+    padding-bottom: 30%;
+}
+.mainHeading{
+    background-color: snow;
+    text-align: center;
+    
+}
+ .CTA{
+    color: white;
+    margin: auto;
+    
+ }
+
+.info-context{
+    color: white;
+    margin: 15px auto;
+    width: 90%;
+    height:auto;
+
+}
+.home-h2{
+    text-align: center;
+}
+/* home page carousel */
+#landingCarousel{
+    margin: auto;
+    width: auto;
+}
+
+.carousel-content{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.Carousel{
+    width: auto;
+    height: auto;
+    
+}
+.video-background{
+    background-color: aliceblue;
+    
+}
+/* about us styling */
+
+.About-content{
+    padding-bottom: 30%;
+}
+
+.about-pargraph-one{
+    background-color: black;
+    color: white;
+    height: auto;
+}
+.about-pargraph-two{
+    background-color: bisque;
+    height: auto;
+}
+
+
+/* services styling */
+.services-content{
+    margin: auto;
+    padding-bottom: 30%;
+}
+.first-card{
+    background-color: black;
+    color: azure;
+}
+.second-card{
+    background-color: bisque;
+
+}
+
+.services-context{
+    margin: auto;
+}
+
+
+
+/* Contact styling */
+
+.contact-content{
+    padding-bottom: 30%;
+}
+.support-card-text{
+    width: 19rem;
+}
+
+#Customer-support {
+
+    scroll-behavior: smooth;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+/* Footer styling  */
+
+footer{
+    background-color: #FEDB39;
+   
+}
+.footer-links{
+    margin: auto;
+}
