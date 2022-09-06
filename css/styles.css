@@ -23,6 +23,12 @@ h1, h2, h3, h4, h5, h6{
     border: 5px solid black;
  }
 
+.images{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
 /* home page styling*/
 .home-content{
     align-items: center;
