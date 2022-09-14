@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6{
 /* horizontal rule styling */
  hr{
     border: 5px solid black;
+    opacity: 1;
+ }
+ .header-hr{
+    border: 10px solid rgb(199, 196, 196);
+    
  }
 
 .images{
