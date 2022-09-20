@@ -1,125 +1,165 @@
 /* body styling */
-body{
+body {
     margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 
 /* navbar styling */
-.nav{
+.nav {
     background-color: #FEDB39
 }
 
 
 /* H styling */
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 /* horizontal rule styling */
- hr{
+hr {
     border: 5px solid black;
     opacity: 1;
- }
- .header-hr{
-    border: 10px solid rgb(199, 196, 196);
-    
- }
+}
 
-.images{
+.header-hr {
+    border: 10px solid rgb(199, 196, 196);
+
+}
+
+.images {
     margin: auto;
     width: auto;
     height: auto;
 }
 
 /* home page styling*/
-.home-content{
+.home-content {
     align-items: center;
     background-color: black;
-    margin: auto;  
+    margin: auto;
     height: auto;
     padding-bottom: 30%;
 }
-.mainHeading{
+
+.mainHeading {
     background-color: snow;
     text-align: center;
-    
+
 }
- .CTA{
+
+.CTA {
     color: white;
     margin: auto;
-    
- }
 
-.info-context{
+}
+
+.info-context {
     color: white;
     margin: 30px auto;
     width: 90%;
-    height:auto;
+    height: auto;
 
 }
-.home-h2{
+
+.home-h2 {
     text-align: center;
 }
+
 /* home page carousel */
-#landingCarousel{
+#landingCarousel {
     margin: auto;
     width: auto;
 }
 
-.carousel-content{
+.carousel-content {
     margin: auto;
     width: auto;
     height: auto;
 }
 
-.Carousel{
+.Carousel {
     width: auto;
     height: auto;
-    
+
 }
-.video-background{
+
+.video-background {
     background-color: aliceblue;
-    
+
 }
+
 video {
-    width: 556px;
-    height: 350px;
-  }
+    width: 5%;
+    height: 5%;
+
+
+}
+
+@media only screen and (min-width: 810px) {
+    video {
+        width: 5%;
+        height: 5%;
+        margin: auto;
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+}
+
+@media only screen and (min-width: 1081px) {
+    video {
+        width: 5%;
+        height: 5%;
+        margin: auto;
+        padding-left: 35%;
+        padding-right: 35%;
+
+    }
+}
+
 /* about us styling */
 
-.About-content{
+.About-content {
     padding-bottom: 30%;
 }
 
-.about-pargraph-one{
+.about-pargraph-one {
     background-color: black;
     color: white;
     height: auto;
 }
-.about-pargraph-two{
+
+.about-pargraph-two {
     background-color: bisque;
     height: auto;
 }
 
 
 /* services styling */
-.services-content{
+.services-content {
     margin: auto;
     padding-bottom: 30%;
 }
-.first-card{
+
+.first-card {
     background-color: black;
     color: azure;
 }
-.second-card{
+
+.second-card {
     background-color: bisque;
 
 }
 
-.services-context{
+.services-context {
     margin: auto;
 }
 
@@ -127,18 +167,19 @@ video {
 
 /* Contact styling */
 
-.contact-content{
+.contact-content {
     padding-bottom: 30%;
 }
-.support-card-text{
+
+.support-card-text {
     width: 19rem;
 }
 
 #Customer-support {
 
     scroll-behavior: smooth;
-    
-    }
+
+}
 
 
 
@@ -151,10 +192,11 @@ video {
 
 /* Footer styling  */
 
-footer{
+footer {
     background-color: #FEDB39;
-   
+
 }
-.footer-links{
+
+.footer-links {
     margin: auto;
 }
