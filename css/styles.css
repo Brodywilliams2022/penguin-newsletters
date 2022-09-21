@@ -40,13 +40,22 @@ hr {
     height: auto;
 }
 
+/* content div's global  */
+
+@media only screen and (max-width: 810px) {
+    .content{
+        padding-bottom: 24%;
+    }
+
+    }
+
 /* home page styling*/
-.home-content {
+#home-content {
     align-items: center;
     background-color: black;
     margin: auto;
     height: auto;
-    padding-bottom: 30%;
+
 }
 
 .mainHeading {
@@ -127,8 +136,8 @@ video {
 
 /* about us styling */
 
-.About-content {
-    padding-bottom: 30%;
+#About-content {
+    margin: auto;
 }
 
 .about-pargraph-one {
@@ -144,9 +153,9 @@ video {
 
 
 /* services styling */
-.services-content {
+#services-content {
     margin: auto;
-    padding-bottom: 30%;
+
 }
 
 .first-card {
@@ -167,8 +176,8 @@ video {
 
 /* Contact styling */
 
-.contact-content {
-    padding-bottom: 30%;
+#contact-content {
+    margin: auto;
 }
 
 .support-card-text {
@@ -181,10 +190,24 @@ video {
 
 }
 
+#Map{
+    margin: 0;
+    padding: 0;
+}
 
+iframe{
+    width:600px; 
+    height:450px; 
+    border:0;
+}
 
-
-
+@media only screen and (max-width: 810px) {
+    iframe{
+        width:365px; 
+        height:300px; 
+        border:0;
+    }
+}
 
 
 
@@ -192,9 +215,8 @@ video {
 
 /* Footer styling  */
 
-footer {
+footer {    
     background-color: #FEDB39;
-
 }
 
 .footer-links {
