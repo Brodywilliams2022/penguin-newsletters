@@ -31,6 +31,7 @@ hr {
 
 .header-hr {
     border: 10px solid rgb(199, 196, 196);
+    margin-bottom: 0%;
 
 }
 
@@ -41,6 +42,11 @@ hr {
 }
 
 /* content div's global  */
+
+.content{
+    padding-bottom: 0.5%;
+}
+
 
 @media only screen and (max-width: 810px) {
     .content{
@@ -175,6 +181,11 @@ video {
 
 
 /* Contact styling */
+.Form{
+    margin-top: .25%;
+    
+
+}
 
 #contact-content {
     margin: auto;
@@ -189,6 +200,7 @@ video {
     scroll-behavior: smooth;
 
 }
+
 
 #Map{
     margin: 0;
